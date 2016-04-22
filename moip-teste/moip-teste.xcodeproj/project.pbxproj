@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA34373E1CCA6AE600B18CBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA34373D1CCA6AE600B18CBA /* AppDelegate.swift */; };
+		EA3437401CCA6AE600B18CBA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA34373F1CCA6AE600B18CBA /* LoginViewController.swift */; };
+		EA3437431CCA6AE600B18CBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA3437411CCA6AE600B18CBA /* Main.storyboard */; };
+		EA3437451CCA6AE700B18CBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA3437441CCA6AE700B18CBA /* Assets.xcassets */; };
+		EA3437481CCA6AE700B18CBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA3437461CCA6AE700B18CBA /* LaunchScreen.storyboard */; };
+		EA3437531CCA6AE700B18CBA /* moip_testeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3437521CCA6AE700B18CBA /* moip_testeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA34374F1CCA6AE700B18CBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA3437321CCA6AE600B18CBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA3437391CCA6AE600B18CBA;
+			remoteInfo = "moip-teste";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA34373A1CCA6AE600B18CBA /* moip-teste.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "moip-teste.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA34373D1CCA6AE600B18CBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA34373F1CCA6AE600B18CBA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EA3437421CCA6AE600B18CBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA3437441CCA6AE700B18CBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA3437471CCA6AE700B18CBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA3437491CCA6AE700B18CBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA34374E1CCA6AE700B18CBA /* moip-testeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "moip-testeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA3437521CCA6AE700B18CBA /* moip_testeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moip_testeTests.swift; sourceTree = "<group>"; };
+		EA3437541CCA6AE700B18CBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA3437371CCA6AE600B18CBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA34374B1CCA6AE700B18CBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA3437311CCA6AE600B18CBA = {
+			isa = PBXGroup;
+			children = (
+				EA34373C1CCA6AE600B18CBA /* moip-teste */,
+				EA3437511CCA6AE700B18CBA /* moip-testeTests */,
+				EA34373B1CCA6AE600B18CBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA34373B1CCA6AE600B18CBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA34373A1CCA6AE600B18CBA /* moip-teste.app */,
+				EA34374E1CCA6AE700B18CBA /* moip-testeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA34373C1CCA6AE600B18CBA /* moip-teste */ = {
+			isa = PBXGroup;
+			children = (
+				EA3437611CCA6B5900B18CBA /* AppDelegate */,
+				EA3437601CCA6B4700B18CBA /* Storyboards & Xib */,
+				EA34375F1CCA6B4200B18CBA /* Model */,
+				EA34375E1CCA6B3900B18CBA /* Controllers */,
+				EA34375D1CCA6B3200B18CBA /* Views */,
+				EA3437441CCA6AE700B18CBA /* Assets.xcassets */,
+				EA3437491CCA6AE700B18CBA /* Info.plist */,
+			);
+			path = "moip-teste";
+			sourceTree = "<group>";
+		};
+		EA3437511CCA6AE700B18CBA /* moip-testeTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA3437521CCA6AE700B18CBA /* moip_testeTests.swift */,
+				EA3437541CCA6AE700B18CBA /* Info.plist */,
+			);
+			path = "moip-testeTests";
+			sourceTree = "<group>";
+		};
+		EA34375D1CCA6B3200B18CBA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		EA34375E1CCA6B3900B18CBA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EA34373F1CCA6AE600B18CBA /* LoginViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		EA34375F1CCA6B4200B18CBA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EA3437601CCA6B4700B18CBA /* Storyboards & Xib */ = {
+			isa = PBXGroup;
+			children = (
+				EA3437461CCA6AE700B18CBA /* LaunchScreen.storyboard */,
+				EA3437411CCA6AE600B18CBA /* Main.storyboard */,
+			);
+			name = "Storyboards & Xib";
+			sourceTree = "<group>";
+		};
+		EA3437611CCA6B5900B18CBA /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				EA34373D1CCA6AE600B18CBA /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA3437391CCA6AE600B18CBA /* moip-teste */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA3437571CCA6AE700B18CBA /* Build configuration list for PBXNativeTarget "moip-teste" */;
+			buildPhases = (
+				EA3437361CCA6AE600B18CBA /* Sources */,
+				EA3437371CCA6AE600B18CBA /* Frameworks */,
+				EA3437381CCA6AE600B18CBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "moip-teste";
+			productName = "moip-teste";
+			productReference = EA34373A1CCA6AE600B18CBA /* moip-teste.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA34374D1CCA6AE700B18CBA /* moip-testeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA34375A1CCA6AE700B18CBA /* Build configuration list for PBXNativeTarget "moip-testeTests" */;
+			buildPhases = (
+				EA34374A1CCA6AE700B18CBA /* Sources */,
+				EA34374B1CCA6AE700B18CBA /* Frameworks */,
+				EA34374C1CCA6AE700B18CBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA3437501CCA6AE700B18CBA /* PBXTargetDependency */,
+			);
+			name = "moip-testeTests";
+			productName = "moip-testeTests";
+			productReference = EA34374E1CCA6AE700B18CBA /* moip-testeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA3437321CCA6AE600B18CBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Vinicius Carvalho";
+				TargetAttributes = {
+					EA3437391CCA6AE600B18CBA = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					EA34374D1CCA6AE700B18CBA = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EA3437391CCA6AE600B18CBA;
+					};
+				};
+			};
+			buildConfigurationList = EA3437351CCA6AE600B18CBA /* Build configuration list for PBXProject "moip-teste" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA3437311CCA6AE600B18CBA;
+			productRefGroup = EA34373B1CCA6AE600B18CBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA3437391CCA6AE600B18CBA /* moip-teste */,
+				EA34374D1CCA6AE700B18CBA /* moip-testeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA3437381CCA6AE600B18CBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA3437481CCA6AE700B18CBA /* LaunchScreen.storyboard in Resources */,
+				EA3437451CCA6AE700B18CBA /* Assets.xcassets in Resources */,
+				EA3437431CCA6AE600B18CBA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA34374C1CCA6AE700B18CBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA3437361CCA6AE600B18CBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA3437401CCA6AE600B18CBA /* LoginViewController.swift in Sources */,
+				EA34373E1CCA6AE600B18CBA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA34374A1CCA6AE700B18CBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA3437531CCA6AE700B18CBA /* moip_testeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA3437501CCA6AE700B18CBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA3437391CCA6AE600B18CBA /* moip-teste */;
+			targetProxy = EA34374F1CCA6AE700B18CBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA3437411CCA6AE600B18CBA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA3437421CCA6AE600B18CBA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA3437461CCA6AE700B18CBA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA3437471CCA6AE700B18CBA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA3437551CCA6AE700B18CBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA3437561CCA6AE700B18CBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA3437581CCA6AE700B18CBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "moip-teste/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.moip-teste";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA3437591CCA6AE700B18CBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "moip-teste/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.moip-teste";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EA34375B1CCA6AE700B18CBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "moip-testeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.moip-testeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/moip-teste.app/moip-teste";
+			};
+			name = Debug;
+		};
+		EA34375C1CCA6AE700B18CBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "moip-testeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.moip-testeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/moip-teste.app/moip-teste";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA3437351CCA6AE600B18CBA /* Build configuration list for PBXProject "moip-teste" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA3437551CCA6AE700B18CBA /* Debug */,
+				EA3437561CCA6AE700B18CBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA3437571CCA6AE700B18CBA /* Build configuration list for PBXNativeTarget "moip-teste" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA3437581CCA6AE700B18CBA /* Debug */,
+				EA3437591CCA6AE700B18CBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA34375A1CCA6AE700B18CBA /* Build configuration list for PBXNativeTarget "moip-testeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA34375B1CCA6AE700B18CBA /* Debug */,
+				EA34375C1CCA6AE700B18CBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA3437321CCA6AE600B18CBA /* Project object */;
+}
